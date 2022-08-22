@@ -51,8 +51,8 @@
 #define PITCH_BIG_DELTA   (PITCH_SPEED_PRECISION)           /*  1% */
 #define PITCH_NUDGE_DELTA (2 * PITCH_SPEED_PRECISION)       /*  2% */
 
-#define SPEED_SMALL_DELTA (PITCH_SPEED_PRECISION / 10)      /* .1% */
-#define SPEED_BIG_DELTA   (PITCH_SPEED_PRECISION)           /*  1% */
+#define SPEED_SMALL_DELTA (PITCH_SPEED_PRECISION * 10)      /*  10% */
+#define SPEED_BIG_DELTA   (PITCH_SPEED_PRECISION * 10)      /*  10% */
 
 #define SEMITONE_SMALL_DELTA (PITCH_SPEED_PRECISION / 10)  /* 10 cents   */
 #define SEMITONE_BIG_DELTA   PITCH_SPEED_PRECISION         /* 1 semitone */
