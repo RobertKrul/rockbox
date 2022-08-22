@@ -7,6 +7,8 @@
 
 Build Your Own Rockbox
 
+sudo pacman -S base-devel automake bison ccache flex glibc gmp mpfr sdl12-compat libtool texinfo zip gawk wget libmpc gettext aarch64-elf-gcc
+
 1. Clone 'rockbox' from git (or extract a downloaded archive).
 
    $ git clone git://git.rockbox.org/rockbox
