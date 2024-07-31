@@ -401,7 +401,9 @@ static void prev_track(unsigned long skip_thresh)
             curr_cuesheet_skip(state->id3->cuesheet, -1, state->id3->elapsed);
             return;
         }
-
+        if (state->id3->elapsed > 5/* min */*60*1000) {
+            bookmark_autobookmark(true);
+        }
         audio_pre_ff_rewind();
         audio_ff_rewind(0);
     }
