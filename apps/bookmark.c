@@ -48,7 +48,7 @@
 /*#define LOGF_ENABLE*/
 #include "logf.h"
 
-#define MAX_BOOKMARKS 10
+#define MAX_BOOKMARKS 1000
 #define MAX_BOOKMARK_SIZE  350
 #define RECENT_BOOKMARK_FILE ROCKBOX_DIR "/most-recent.bmark"
 #define BOOKMARK_IGNORE "/bookmark.ignore"
